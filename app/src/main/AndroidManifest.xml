@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.now1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Now1">
+        <activity android:name=".home.bosuutap1.GridBoSuuTap.GridItemBSTActivity"></activity>
+        <activity android:name=".home.bosuutap1.GridBoSuuTap.XemThemBSTActivity" />
+        <activity android:name=".daluu.XemThem" />
+        <activity android:name=".daluu.ListviewItemActivity" />
+        <activity android:name=".home.map.MapActivity" />
+        <activity android:name=".toi.ThongTinNguoiDung.DoiTen" />
+        <activity android:name=".toi.ThongTinNguoiDung.DoiSoDT" />
+        <activity android:name=".toi.ThongTinNguoiDung.DoiEmail" />
+        <activity android:name=".toi.ThongTinNguoiDung.DoiAvatar" />
+        <activity android:name=".toi.ThongTinNguoiDung.ChonNghe" />
+        <activity android:name=".toi.ThongTinNguoiDung.ThongTinNguoiDung" />
+        <activity android:name=".toi.DiaChi" />
+        <activity android:name=".toi.TaoDiaChi" />
+        <activity android:name=".toi.DanhBa" />
+        <activity android:name=".NhapMaOTPAct" />
+        <activity android:name=".NhapSoDienThoaiAct" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".home.listProvince.ListProvinceAct" />
+        <activity android:name=".DangNhap" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAqUwcN07tioAGQJ-qOvL7fk0X2uZmZpk" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".thongbao.caidatthongbao.CaiDatThongBaoAct" />
+        <activity android:name=".thongbao.khuyenmai.KhuyenMaiTBAct" />
+        <activity android:name=".thongbao.tintuc.TinTucTBAct" />
+        <activity android:name=".LogoBK">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avata"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/chris">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="Thảo Nguyên"></TextView>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="450dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#C7C7C7"
+            android:text="Hôm qua 16:09"></TextView>
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="46dp"
+            android:rating="3"
+            android:progressTint="#E1B634"
+            android:scaleX="0.5"
+            android:scaleY="0.5"></RatingBar>
+
+        <TextView
+            android:id="@+id/danhgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="90dp"
+            android:textSize="20dp"
+            android:text="Rất thích trà sữa ở đây. Lâu rồi hôm nay mới order lại nhưng hương vị hơi khác trước một chút. Nhìn chung vẫn ổn."></TextView>
+
+        <ImageView
+            android:id="@+id/trasua"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/danhgia"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/trasua1"
+            ></ImageView>
+    </RelativeLayout>
+
+</RelativeLayout>

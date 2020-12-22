@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daluu.DaLuuFrag"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Đã lưu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/an"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fafafa">
+
+            <TextView
+                android:id="@+id/txtloaihinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Dịch vụ"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp"/>
+
+            <Spinner
+                android:id="@+id/sploaidaluu"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="#000000"
+                android:dropDownWidth="wrap_content"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="33dp"
+                    android:gravity="center"
+                    android:hint="Đặt nhiều nhất"
+                    android:textColorHint="@color/black"
+                    android:paddingStart="20dp"
+                    android:textSize="28dp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/xemthem"
+                    android:layout_marginLeft="250dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="22dp"
+                    android:textColorHint="@color/black"
+                    android:hint="Xem thêm"
+                    android:drawableEnd="@drawable/ic_navigate_next"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan1">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan2">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan3">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan4">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan2">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan3">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan4">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/quan3">
+                    </ImageView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hinh"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thả tim vào quán bạn yêu nào!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Hãy lắp đầy dạ dày bằng một trái tim xinh. Thả tim (icon) để lưu
+ lại món ngon bạn thích nào"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
